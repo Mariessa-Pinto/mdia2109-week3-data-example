@@ -1,0 +1,66 @@
+/*.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  background-color: var(--background);
+  color: var(--primary-font-color);
+}*/
+
+.description {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+}
+
+/*
+.map {
+  display: flex;
+  flex-direction: row;
+  gap: 10vw;
+  align-items: center;
+}*/
+
+.employeeDetails {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(15%, auto));
+  width: var(--max-width);
+  max-width: 100%;
+  
+  /*display: grid;
+  grid-template-areas: 
+    'a a a a a a'
+    'icon first last id dep pos'
+    'b c d e f g';
+  background-color: var(--background);
+  padding: 10px;*/
+}
+
+/*
+.mainTitle {grid-area: a;}
+.icon {grid-area: icon;}
+.first {grid-area: first;}
+.last {grid-area: last;}
+.id {grid-area: id;}
+.dep {grid-area: dep;}
+.pos {grid-area: pos;}
+.mapIcon {grid-area: b;}
+.mapFirst {grid-area: c;}
+.mapLast {grid-area: d;}
+.mapId {grid-area: e;}
+.mapDep {grid-area: f;}
+.mapPos {grid-area: g;}
+*/
+/*
+.titles {
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+}*/

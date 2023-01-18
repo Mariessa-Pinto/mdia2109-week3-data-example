@@ -1,0 +1,26 @@
+[
+    {
+        "firstName": "Hermoine",
+        "lastName": "Granger",
+        "position": "UX/UI Designer",
+        "started": 2012,
+        "employeeID": 12345,
+        "department": "Web design"
+    },
+    {
+        "firstName": "Tom",
+        "lastName": "Riddle",
+        "position": "Front-end Developer",
+        "started": 2016,
+        "employeeID": 12346,
+        "department": "Web Design"
+    },
+    {
+        "firstName": "Harry",
+        "lastName": "Potter",
+        "position": "Full-stack Developer",
+        "started": 2020,
+        "employeeID": 12347,
+        "department": "Web design"
+    }
+]
