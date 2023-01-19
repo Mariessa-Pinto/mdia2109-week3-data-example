@@ -1,13 +1,12 @@
-/*.main {
+.main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   padding: 6rem;
   min-height: 100vh;
   background-color: var(--background);
   color: var(--primary-font-color);
-}*/
+}
 
 .description {
   display: inherit;
@@ -20,47 +19,44 @@
   font-family: var(--font-mono);
 }
 
-/*
-.map {
-  display: flex;
-  flex-direction: row;
-  gap: 10vw;
-  align-items: center;
-}*/
-
 .employeeDetails {
   display: grid;
-  grid-template-columns: repeat(6, minmax(15%, auto));
-  width: var(--max-width);
-  max-width: 100%;
-  
-  /*display: grid;
   grid-template-areas: 
     'a a a a a a'
-    'icon first last id dep pos'
-    'b c d e f g';
+    'ic first last id dep pos';
   background-color: var(--background);
-  padding: 10px;*/
+  padding: 10px;
+  grid-template-columns: 100px 200px 200px 200px 200px 200px;
+  align-items: center;
+  justify-items: start;
 }
 
-/*
 .mainTitle {grid-area: a;}
-.icon {grid-area: icon;}
+.icon {grid-area: ic;}
 .first {grid-area: first;}
 .last {grid-area: last;}
 .id {grid-area: id;}
 .dep {grid-area: dep;}
 .pos {grid-area: pos;}
+
+.map {
+  display: grid;
+  grid-template-areas: 
+  'b c d e f g';
+  background-color: var(--background);
+  padding: 10px 0 10px;
+  grid-template-columns: 100px 200px 200px 200px 200px 200px;
+  align-items: center;
+  justify-items: start;
+}
+
+.map:nth-child(6) {
+  grid-row-end: span 6;
+}
+  
 .mapIcon {grid-area: b;}
 .mapFirst {grid-area: c;}
 .mapLast {grid-area: d;}
 .mapId {grid-area: e;}
 .mapDep {grid-area: f;}
 .mapPos {grid-area: g;}
-*/
-/*
-.titles {
-    display: flex;
-    flex-direction: row;
-    gap: 10vw;
-}*/

@@ -27,14 +27,12 @@ export default function About() {
                 </div>
                 <div className={styles.employeeDetails}>
                     <h2 className={styles.mainTitle}>Employee Details</h2>
-                    <div className={styles.titles}>
                         <h3 className={styles.icon}>Icon</h3>
                         <h3 className={styles.first}>First Name</h3>
                         <h3 className={styles.last}>Last Name</h3>
                         <h3 className={styles.id}>ID</h3>
                         <h3 className={styles.dep}>Department</h3>
                         <h3 className={styles.pos}>Position</h3>
-                    </div>
                     <div>
                     {information && information.map((info, index) => (
                         <div className={styles.map} key={index}>
