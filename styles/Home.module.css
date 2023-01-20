@@ -5,6 +5,9 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-color: var(--background);
+  color: var(--primary-font-color);
+  font-family: var(--primary-font-family);
 }
 
 .description {

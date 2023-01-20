@@ -2,7 +2,7 @@ import Head from 'next/head'
 import data from '../data/employees.json'
 import { useState } from 'react'
 import styles from '@/styles/About.module.css'
-import Link from 'next/link'
+import NavBar from '../components/NavBar'
 
 export default function About() {
     console.log(data);
@@ -17,17 +17,13 @@ export default function About() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>
-                <div className={styles.description}>
-                    <p>
-                        <Link href="/">Home</Link>
-                    </p>
-                </div>
-                <div>
+                <NavBar/>
+                <div className={styles.heading}>
                     <h1>About Page</h1>
                 </div>
                 <div className={styles.employeeDetails}>
                     <h2 className={styles.mainTitle}>Employee Details</h2>
-                        <h3 className={styles.icon}>Icon</h3>
+                        <h3 className={styles.icon}>Profile Picture</h3>
                         <h3 className={styles.first}>First Name</h3>
                         <h3 className={styles.last}>Last Name</h3>
                         <h3 className={styles.id}>ID</h3>
