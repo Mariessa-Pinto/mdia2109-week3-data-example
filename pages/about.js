@@ -19,11 +19,11 @@ export default function About() {
             <main className={styles.main}>
                 <NavBar/>
                 <div className={styles.heading}>
-                    <h1>About Page</h1>
+                    <h1>Our Team</h1>
                 </div>
                 <div className={styles.employeeDetails}>
                     <h2 className={styles.mainTitle}>Employee Details</h2>
-                        <h3 className={styles.icon}>Profile Picture</h3>
+                        <h3 className={styles.icon}>Picture</h3>
                         <h3 className={styles.first}>First Name</h3>
                         <h3 className={styles.last}>Last Name</h3>
                         <h3 className={styles.id}>ID</h3>
@@ -32,7 +32,7 @@ export default function About() {
                     <div>
                     {information && information.map((info, index) => (
                         <div className={styles.map} key={index}>
-                            <div className={styles.mapIcon}><img src={'icon/person.png'} width="50"></img></div>
+                            <div className={styles.mapIcon}><img src={info.image} width="50"></img></div>
                             <div className={styles.mapFirst}>{info.firstName}</div>
                             <div className={styles.mapLast}>{info.lastName}</div>
                             <div className={styles.mapId}>{info.employeeID}</div>

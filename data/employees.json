@@ -1,23 +1,26 @@
 [
     {
-        "firstName": "Hermoine",
-        "lastName": "Granger",
+        "image": "icon/personOne.png",
+        "firstName": "Marina",
+        "lastName": "Ali",
         "position": "UX/UI Designer",
         "started": 2012,
         "employeeID": 12345,
         "department": "Web design"
     },
     {
+        "image": "icon/personFour.png",
         "firstName": "Tom",
-        "lastName": "Riddle",
+        "lastName": "Mohammed",
         "position": "Front-end Developer",
         "started": 2016,
         "employeeID": 12346,
         "department": "Web Design"
     },
     {
-        "firstName": "Harry",
-        "lastName": "Potter",
+        "image": "icon/personFive.png",
+        "firstName": "Sally",
+        "lastName": "Smith",
         "position": "Full-stack Developer",
         "started": 2020,
         "employeeID": 12347,

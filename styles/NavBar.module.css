@@ -1,7 +1,7 @@
 .navBar {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     justify-items: flex-start;
     width: 100%;
     justify-content: space-between;
@@ -16,4 +16,5 @@
 
 .words {
     font-family: var(--primary-font-family);
+    font-weight: var(--font-weight-heavy);
 }

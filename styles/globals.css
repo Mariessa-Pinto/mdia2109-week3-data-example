@@ -1,5 +1,5 @@
 :root {
-  --max-width: 1100px;
+  --max-width: 100%;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
@@ -41,10 +41,15 @@
 
   --background: rgb(235, 235, 235);
   --primary-font-color: rgb(0,0,0);
+  --drop-shadow: rgb(150, 150, 150);
+  --card-background: rgb(200, 200, 200);
   --primary-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  --primary-font-size: 16px
+  --primary-font-size: 16px;
+  --secondary-font-size: 20px;
+  --font-weight-heavy: 600;
 }
 
+/*
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -77,7 +82,7 @@
     --card-border-rgb: 200, 200, 200;
   }
 }
-
+*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -105,8 +110,10 @@ a {
   text-decoration: none;
 }
 
+/*
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
 }
+*/

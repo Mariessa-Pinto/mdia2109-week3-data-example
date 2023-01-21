@@ -4,3 +4,4 @@ A home page displaying degree data throught the map method. An About page displa
 # Programming Languages Used
 1. Next.js 13
 2. CSS
+3. JavaScript
